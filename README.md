@@ -1,4 +1,5 @@
 🧠 MCP Server Project - Multi-Agent AI Tools
+
 This project demonstrates how to build and serve multiple AI tools using the FastMCP framework. It includes a combination of COM-based email automation, external API integration (OpenWeather), local file-based notes, and utility functions—all accessible via an MCP-compatible agent interface.
 
 🔧 Requirements
@@ -37,7 +38,7 @@ compose_email(recipient_email, subject, body, cc_email)
 ⚠️ Must be run on Windows with Microsoft Outlook installed.
 
 🌍 Weather Tools (OpenWeather API)
-Provides weather details using OpenWeatherMap API including:
+Provides weather details using OpenWeatherMap API, including:
 
 Current weather
 5-day forecast
@@ -83,7 +84,7 @@ Each server will start on its own FastMCP interface for integration with agents.
 You can now connect these MCP tools with agents (CrewAI, LangChain, etc.) to enable conversational workflows like:
 
 "What’s the weather in London today?"
-"Summarize my latest sticky notes"
-"Reply to the last unread email from Ajay"
+"Summarize my latest sticky notes."
+"Reply to the last unread email from Prathap."
 "What is 42 + 11?"
 
